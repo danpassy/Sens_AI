@@ -4,7 +4,7 @@
 
 **Projet de Recherche - Étudiant Ingénieur**  
 **Institution : ISEN Toulon, France**  
-**Auteur : [Votre Nom]**  
+**Auteur : Dan Boussougo**  
 **Date : Mars 2026**
 
 ## Résumé
@@ -425,9 +425,9 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 ## Contact
 
-[Votre Nom] - [votre.email@isen.fr]
+dan Boussougou - danbouss22@gmail.com
 
-Lien du projet : [https://github.com/username/senseai-project](https://github.com/username/senseai-project)
+Lien du projet : [https://github.com/danpassy/Sens_AI](https://github.com/danpassy/Sens_AI)
 
 ---
 

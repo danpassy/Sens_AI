@@ -1,0 +1,218 @@
+# Nordic nRF Connect SDK / Zephyr
+build/
+build.ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+autoconf.h
+zephyr_modules.txt
+zephyr_settings.txt
+_sysbuild/
+modules/
+Kconfig/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+android/app/build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/build/
+web/build/
+windows/build/
+macos/build/
+linux/build/
+
+# Android
+*.apk
+*.aar
+*.ap_
+*.dex
+android/app/src/main/assets/flutter_assets/
+android/app/src/main/res/drawable-*/flutter_assets/
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradlew
+android/gradlew.bat
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/Flutter/Flutter.podspec
+ios/Runner/GeneratedPluginRegistrant.*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log.txt
+uart.log
+debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Data acquisition files (large datasets) - keep example files
+Data_aquisition/
+data/
+datasets/
+# Keep example or configuration CSV/JSON files
+# *.csv
+# *.json
+
+# Node.js (if used for Edge Impulse CLI)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Edge Impulse
+edge-impulse-sdk/
+model-parameters/
+tflite-model/
+*.tflite
+
+# Documentation generated
+docs/build/
+*.pdf
+*.docx
+
+# Backup files
+*.orig
+*.rej
+
+# Secrets and keys
+secrets/
+*.key
+*.pem
+config/keys/
+.env.local
+.env.production
+
+# Test results
+test-results/
+coverage/
+.nyc_output/
+
+# Cache directories
+.cache/
+.tmp/
+temp/SenseAI-App.zip
+*.zip
+*.zip
+**/build/
+**/.venv/
+**/__pycache__/
+**/.dart_tool/

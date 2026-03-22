@@ -1,0 +1,14 @@
+#include <zephyr/autoconf.h>
+
+fatfs_storage:
+  affiliation: disk
+  extra_params: {
+      disk_name: "SD",
+      disk_cache_size: 4096,
+      disk_sector_size: 512,
+      disk_read_only: 0
+  }
+  placement:
+    before: [end]
+    align: {start: 4096}
+  size: 0x20000
