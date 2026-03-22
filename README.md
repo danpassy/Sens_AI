@@ -4,7 +4,7 @@
 
 **Projet de Recherche - Étudiant Ingénieur**  
 **Institution : ISEN Toulon, France**  
-**Auteur : Dan Boussougo**  
+**Auteur : SENSE IA , DAN, TEO, LEO, TATIANA**  
 **Date : Mars 2026**
 
 ## Résumé
