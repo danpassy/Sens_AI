@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20.0)
 
-# Pick a Python interpreter that can import both west and pyelftools.
+# Pick a Python interpreter that can import required Zephyr build modules.
 set(_zephyr_python_candidates "")
 
 if(DEFINED WEST_PYTHON)
@@ -34,7 +34,7 @@ unset(_selected_python)
 foreach(_py IN LISTS _zephyr_python_candidates)
   if(EXISTS "${_py}")
     execute_process(
-      COMMAND "${_py}" -c "import west.version, elftools"
+      COMMAND "${_py}" -c "import west.version, elftools, intelhex"
       RESULT_VARIABLE _py_ok
       OUTPUT_QUIET
       ERROR_QUIET
